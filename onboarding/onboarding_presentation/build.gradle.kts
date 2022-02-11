@@ -4,14 +4,7 @@ apply {
 
 dependencies {
     "implementation"(project(Modules.core))
-    "implementation"(project(Modules.trackerDomain))
+    "implementation"(project(Modules.coreUi))
+    "implementation"(project(Modules.onboardingDomain))
 
-    "implementation"(Retrofit.okHttp)
-    "implementation"(Retrofit.retrofit)
-    "implementation"(Retrofit.okHttpLoggingInterceptor)
-    "implementation"(Retrofit.moshiConverter)
-
-    "kapt"(Room.roomCompiler)
-    "implementation"(Room.roomKtx)
-    "implementation"(Room.roomRuntime)
 }
