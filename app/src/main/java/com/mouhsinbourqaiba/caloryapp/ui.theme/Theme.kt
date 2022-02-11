@@ -5,7 +5,10 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.material.darkColors
 import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.ui.graphics.Color
+import com.mouhsinbourqaiba.core_ui.Dimensions
+import com.mouhsinbourqaiba.core_ui.localSpacing
 
 private val DarkColorPalette = darkColors(
     primary = BrightGreen,
@@ -38,10 +41,12 @@ fun CaloryTrackerTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Com
     } else {
         LightColorPalette
     }
-    MaterialTheme(
-        colors = colors,
-        typography = Typography,
-        shapes = Shapes,
-        content = content
-    )
+    CompositionLocalProvider(localSpacing provides Dimensions()) {
+        MaterialTheme(
+            colors = colors,
+            typography = Typography,
+            shapes = Shapes,
+            content = content
+        )
+    }
 }
