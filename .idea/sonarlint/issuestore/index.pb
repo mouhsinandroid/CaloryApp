@@ -3,16 +3,6 @@ X
 (gradle/wrapper/gradle-wrapper.properties,f\b\fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
 o
 ?app/src/test/java/com/plcoding/calorytracker/ExampleUnitTest.kt,1\f\1f18982e1f7b9f7f55ab86e784ab8b2ae6bb775e
-P
- app/src/main/AndroidManifest.xml,8\c\8c55c3ccc257e5907959013f99656e4c8ec3903e
-A
-gradle.properties,2\a\2afbb999f001938c88fa43fc2ef52abf0f8213e4
-r
-Bapp/src/main/java/com/mouhsinbourqaiba/caloryapp/ui.theme/Shape.kt,6\3\637b002af0de6faeadfb746e07c6d465f5445b77
-r
-Bapp/src/main/java/com/mouhsinbourqaiba/caloryapp/ui.theme/Color.kt,2\a\2afda799762834f4ffc110e304f1eeea1cda3b92
-q
-Aapp/src/main/java/com/mouhsinbourqaiba/caloryapp/ui.theme/Type.kt,8\5\858b2ca827b0afb059f066f05946d0092da38856
 B
 base-module.gradle,e\3\e33a6bc3c3db1f16f571736a6b80850b7b3ef758
 E
